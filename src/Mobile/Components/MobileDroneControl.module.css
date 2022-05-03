@@ -1,0 +1,8 @@
+.play-button {
+    display: flex;
+    border:none;
+    background-color:transparent;
+    outline:none;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+ } 

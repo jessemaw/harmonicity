@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FEFEFE" x="0" y="0" width="30" height="30"></rect>
+        <g id="Decentralized-Social-(DESO)">
+            <path d="M0,0.0806451613 L0,7.5 L22.9746835,18.3870968 L0,29.7580645 L18.9873418,29.7580645 C25.0632911,29.7580645 29.9050633,26.1290323 29.9050633,21.6129032 L29.9050633,14.9193548 L0,0.0806451613 Z" id="Path" fill="#757575"></path>
+            <path d="M0,0.0806451613 L29.9050633,14.9193548 L29.9050633,8.22580645 C29.9050633,3.70967742 24.9683544,0.0806451613 18.9873418,0.0806451613 L0,0.0806451613 Z" id="Path" fill="#BCBCBC"></path>
+            <polygon id="Path" fill="#EBEBEB" points="15.7594937 14.9193548 0 22.3387097 0 29.7580645 22.9746835 18.3064516"></polygon>
+        </g>
+    </g>
+</svg>

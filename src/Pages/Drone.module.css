@@ -1,0 +1,39 @@
+.drone-container {
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.drone {
+    display: flex;
+    height: 50%;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-bottom: 5%;
+}
+
+.droneHeader {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    margin-left: 0;
+    margin-bottom: -4%;
+    margin-right: 0;
+    letter-spacing: 3px;
+}
+
+.droneWord {
+    font-size: 6vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    letter-spacing: 3px;
+}
+
+.play {
+    display: flex;
+    justify-content: center;
+}

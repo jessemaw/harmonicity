@@ -1,0 +1,33 @@
+.footerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: static;
+    margin-bottom: 6vh;
+    flex-direction: column;
+    margin-top: 6vh;
+}
+
+.footerText {
+    font-size: 2vh;
+    font-family: Bangla MN, Helvetica, sans-serif;
+}
+
+.iconContainer {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 6vh;
+}
+
+.deso {
+    margin-left: 8vw;
+    margin-right: 8vw;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.icon {
+    -webkit-tap-highlight-color: transparent;
+}

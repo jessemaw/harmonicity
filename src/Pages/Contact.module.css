@@ -1,0 +1,8 @@
+.container {
+    display: inline-flex;
+    background-color: #FEFEFE;
+    width: 60%;
+    height: 60vh;
+    margin-left: 10%;
+    margin-top: 3%;
+}

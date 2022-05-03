@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+    padding-bottom: 10vh;
+
+}
+
+.heading {
+margin: 10% 0;
+}

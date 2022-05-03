@@ -1,0 +1,60 @@
+.container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    
+}
+
+.header {
+    align-content: center;
+    margin-top: 8%;
+    margin-bottom: 3%;
+}
+
+.title {
+    font-family: Bangla MN, Helvetica, sans-serif;
+    color: #1B1B1B;
+    text-align: center;
+    font-weight: normal;
+    font-size: 9vw;
+    vertical-align: middle;
+    margin: 0;
+    margin-bottom: 10%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.hamburger {
+    margin-bottom: 3%;
+    position: relative;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.close {
+    opacity: 0;
+    border: none;
+    transition: 0.6s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 3;
+    padding: 0 0;
+    text-align: start;
+    background-color: inherit;
+}
+
+.change {
+    opacity: 1;
+    transition: 0.4s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 3;
+    padding: 0 0;
+    text-align: start;
+    box-sizing: 0;
+    background-color: inherit;
+}

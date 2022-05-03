@@ -1,0 +1,23 @@
+.container {
+  display: block;
+  height: 100vh;
+  width: 100vw;
+}
+
+.mobileContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    overflow: auto;
+  }
+}

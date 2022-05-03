@@ -1,0 +1,178 @@
+
+  .container {
+    display: flex;
+    justify-content: center;
+    white-space: normal;
+    width: 100%;
+  }
+  
+  .newsletter {
+    display: block;
+    height: 90%;
+    width: 100%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 3%;
+    justify-content: center;
+    text-align: center;
+    border-radius: 12px;
+  }
+  
+  
+  .box {
+    width: 80%;
+    height: 424px;
+    margin-bottom: 2rem;
+    background-color: white;
+    border-radius: 12px;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1em;
+    color: inherit;
+  
+  }
+  
+  .heading {
+    margin: 0 auto;
+    font-size: 6vh;
+    letter-spacing: 3px;
+  }
+  
+  .email {
+    width: 50%;
+    height: 1.5rem;
+    border-radius: 4px;
+    border-color: transparent;
+    box-shadow: 2px 3px 6px 1px;
+    border-width: thin;
+    border-style: solid;
+    margin-top: 1.5rem;
+    -webkit-appearance: none;
+  }
+
+  .name {
+    width: 50%;
+    height: 1.5rem;
+    border-radius: 4px;
+    border-color: transparent;
+    box-shadow: 2px 3px 6px 1px;
+    border-width: thin;
+    border-style: solid;
+    -webkit-appearance: none;
+  }
+  
+  .email::placeholder {
+      color: #D1D1D2;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .email:focus {
+    outline: none;
+  }
+  
+  .email.invalid {
+    background: #fbdada;
+  }
+
+  .name::placeholder {
+    color: #D1D1D2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.name:focus {
+  outline: none;
+}
+
+.name.invalid {
+  background: #fbdada;
+}
+  
+  .emailText {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #49484d;
+    margin-top: 1rem;
+  }
+  
+  .signUp {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 18px;
+    height: 32px;
+    width: 160px;
+    margin-top: 2rem;
+    line-height: 0;
+    background: none;
+    border: 2px solid;
+    border-radius: 8px;
+    font-family: Helvetica, sans-serif;
+    padding: 1em 2em;
+    color: #1b1b1b;
+    transition: 0.25s;
+  }
+
+  .signUp:hover,
+  .signUp:focus {
+    box-shadow: inset 0 0 0 2em var(--hover);
+    border-color: var(--hover);
+    color: white;
+    background: #1b1b1b;
+  }
+  
+  .message {
+    margin-top: 2rem;
+    width: 100%;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: transparent;
+    box-shadow: 2px 3px 6px 1px;
+    resize: none;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-appearance: none;
+  }
+  
+  .message:focus {
+    outline: none;
+  }
+  
+  .message::placeholder {
+    color: #D1D1D2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .message.invalid {
+    border-color: red;
+    background: #fbdada;
+  }
+  
+  .signUp:disabled,
+  .signUp:focus:disabled,
+  .signUp:hover:disabled,
+  .signUp:active:disabled {
+  background: #ccc;
+  border-color: #ccc;
+  color: #666666;
+  cursor: not-allowed;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .newsletter {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .box {
+      width: 80%;
+    }
+  
+    .email {
+      width: 75%;
+    }
+  }

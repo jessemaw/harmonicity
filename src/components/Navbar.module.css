@@ -1,0 +1,137 @@
+.container {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    margin-top: 3%;
+    margin-left: 5%;
+    vertical-align: top;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+}
+
+.leftList {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    text-align: end;
+    list-style-type: none;
+    font-family: Bangla MN, Helvetica, sans-serif;
+    font-weight: normal;
+    color: #1B1B1B;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30%;
+    margin-right: -7%;
+    width: 5.6vw;
+
+}
+
+.leftList:first-child {
+   display: flex;
+}
+
+.leftList:last-child {
+   display: flex;
+   margin-right: 1%;
+}
+
+.leftList li:hover {
+    opacity: 50%;
+}
+
+.guitar {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rightList {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style-type: none;
+    font-family: Bangla MN, Helvetica, sans-serif;
+    font-weight: normal;
+    color: #1B1B1B;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 28%;
+    margin-left: -10%;
+    width: 7vw;
+}
+
+.rightList:first-child {
+    display: flex;
+}
+
+.rightList:nth-child(2) {
+   display: flex;
+}
+
+.rightList:last-child {
+    display: flex;
+    margin-left: -5%;
+}
+
+.rightList li:hover {
+    opacity: 50%;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.link {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu {
+    
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    border-bottom: 220px solid #1B1B1B;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    height: 0;
+    width: 24px;
+}
+
+ .social-icons {
+     display: flex;
+     flex-direction: row;
+     list-style: none;
+     padding-left: 0;
+     margin-top: 5%;
+     margin-right: 20%;
+     justify-content: space-evenly;
+ }
+
+ .icon {
+     display: flex;
+     transition: .8s;
+  z-index: 3;
+ }
+
+ .icon:hover {
+    transform: rotateY(360deg);
+ }
+
+ .icon:before {
+    transition: .8s;
+    z-index: 2;
+    color: #3b5999;
+ }
+
+ .deso {
+     width: 22px;
+     justify-self: center;
+     margin-top: 18%;
+ }

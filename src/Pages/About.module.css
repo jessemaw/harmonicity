@@ -1,0 +1,12 @@
+
+.blurb {
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 2% 6%;
+}
+
+.blurbText {
+    font-weight: 500;
+    line-height: 2.2;
+    color: #1b1b1b;
+}
